@@ -1,0 +1,78 @@
+#profileInfo{
+    background-color: white;
+    color: rgb(66, 103, 178);
+    padding-top: 0%;
+    width: 50%;
+    margin-left: 27%;
+    box-shadow: 0 0 30px black;
+    border-radius: 5px;
+    height: auto;
+    
+    
+    
+}
+
+#profileInfo p{
+    padding-left: 50%;
+    font-size: 150%;
+   
+}
+
+#profilePic{
+    width: 30%;
+    padding-left: 0%;
+    margin-top: -15%;
+    margin-bottom: 10%;
+    
+}
+
+#profileFirst{
+    padding-top: 8%;
+}
+
+.buttonTrue {
+    color: green;
+    font-weight: bold;
+    
+
+}
+
+.buttonFalse {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    margin-left: 50%;
+    height: 200%;
+    width: 28%;
+    background-color: white;
+    border-color: white;
+    box-shadow: 0 0 0px white;
+}
+
+
+
+#createNewDog {
+  font-size: 200%;
+  padding-left: 25%;
+}
+
+#createNewDog input {
+    font-size: 100%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+  }
+
+#createH1 {
+    font-size: 140%;
+    margin-left: -30%;
+}
+
+#createButton {
+    font-size: 80%;
+    border-radius: 0px;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
