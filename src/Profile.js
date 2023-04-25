@@ -1,5 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import { boolean } from 'yup';
+import React, { useState } from 'react';
+import ColorChange from './ColorChange.js'
 
 
 
@@ -10,25 +12,27 @@ const Profile = () => {
     return String(item.id) === id;
   })
 
-  function myFunction() {
+
+
+  /*function myFunction() {
      
     if (hereornot.checked === true ){
   
-        document.getElementById("profileInfo").style.color = 'green'
+        document.getElementById(thisDog.id).style.color = 'green'
     
     }else if (hereornot.checked === false) {
-        document.getElementById("profileInfo").style.color = 'red'
+        document.getElementById(thisDog.id).style.color = 'red'
        
     }
-  }
+  }*/
 
+  
   
   return (
     <div id="profileInfo">
       <h1 id="ett">Profile {thisDog.name}</h1>
       <img id="profilePic"src={thisDog.pic} key={thisDog.pic}/>
-      <label>Presence</label>
-      <input type='checkbox' id="hereornot" onClick={myFunction}/>
+      <ColorChange />
       <p>{thisDog.nick}</p>
       <p>Age: {thisDog.ages}</p> 
       <p>Sex: {thisDog.sex}</p>
